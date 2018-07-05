@@ -3,7 +3,12 @@
     padding: 0%;
     width: auto;
     height: auto;
-    font-weight: bold;
+
+
+}
+
+.main{
+    position: fixed;
 }
 
 img{
@@ -11,4 +16,36 @@ img{
     width: 100%;
     height: 100%;
     z-index: -1;
+}
+
+.btn{
+   width: 300px;
+    height: 125px;
+    font-size: 30px;
+    font-weight: bold;
+    position: fixed;
+    left: 42.5%;
+    color: white;
+}
+
+.multi{
+    align-items: center;
+    top:60%;
+}
+
+.single{
+    align-items: center;
+    top: 40%;
+}
+
+.btn:hover{
+    color: white;
+    font-size: 35px;
+}
+
+.footer{
+    bottom: 0%;
+    left: 42.5%;
+    position: fixed;
+    color: white;
 }
